@@ -20,6 +20,38 @@
   <a href='#'><span>Services</span></a>
   <a href='#'><span>Contact</span></a>
 </div>
+.ribbon span {
+  background:#fff;
+  display:inline-block;
+  line-height:3em;
+  padding:0 1em;
+  margin-top:0.5em;
+  position:relative;
+  transition: background-color 0.2s, margin-top 0.2s;
+}
+
+.ribbon a:hover span {
+  background:#FFD204;
+  margin-top:0;
+}
+
+.ribbon span:before {
+  content: "";
+  position:absolute;
+  top:3em;
+  left:0;
+  border-right:0.5em solid #9B8651;
+  border-bottom:0.5em solid #fff;
+}
+
+.ribbon span:after {
+  content: "";
+  position:absolute;
+  top:3em;
+  right:0;
+  border-left:0.5em solid #9B8651;
+  border-bottom:0.5em solid #fff;
+}
 		<h1>
 		Découvrir des paysages à la Réunion!
 		</h1>
