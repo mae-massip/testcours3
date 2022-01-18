@@ -1,11 +1,11 @@
-.ribbon:after, .ribbon:before {
-    margin-top:0.5em;
-    content: "";
-    float:left;
-    border:1.5em solid #fff;
-  }
-  
-  /*CSS DU MENU*/
+/*Ceci est un commentaire en CSS*/
+      h1 {
+        color: #000000;
+      }
+      p2 {
+        color: black;
+      }
+      /*CSS DU MENU*/
   .ribbon{
     display: inline-block;
   }
@@ -65,3 +65,15 @@
     border-bottom:0.5em solid #fff;
   }
    /*FIN CSS DU MENU*/
+
+    </style>
+  </head>
+  <body>
+    <!-- Le hmlt est un language -->
+
+    <p><div class='ribbon'>
+  <a href='#'><span>Acceuil</span></a>
+  <a href='Diplômes.html'><span>découvrir</span></a>
+  <a href='#'><span>Images</span></a>
+  <a href='#'><span>Contacts</span></a>
+</div></p>
