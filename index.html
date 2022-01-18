@@ -1,44 +1,106 @@
 <!DOCTYPE HTML>
 <HTML>
-<body>
-	<section class="showcase">
-		<header>
-			<h2 class="logo">travel</h2>
-			<div class="toggle"></div>
-		</header>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			/*Ceci est un commentaire en CSS*/
+			h1 {
+				color: #000000;
+			}
+			p2 {
+				color: black;
+			}
 
-		<!-- Video Source -->
-  <!-- https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
-  <section class="showcase">
-    <header>
-      <h2 class="logo">Travel</h2>
-      <div class="toggle"></div>
-    </header>
-    <video src="https://traversymedia.com/downloads/videos/explore.mp4" muted loop autoplay></video>
-    <div class="overlay"></div>
-    <div class="text">
-      <h2>Never Stop To </h2> 
-      <h3>Exploring The World</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>
-      <a href="#">Explore</a>
-    </div>
-    <ul class="social">
-      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
-      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
-      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
-    </ul>
-  </section>
-  <div class="menu">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">News</a></li>
-      <li><a href="#">Destination</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </div>
+			/*CSS DU MENU*/
+  .ribbon{
+    display: inline-block;
+  }
+  .ribbon:after, .ribbon:before {
+    margin-top:0.5em;
+    content: "";
+    float:left;
+    border:1.5em solid #fff;
+  }
+  
+  .ribbon:after {
+    border-right-color:transparent;
+  }
+  
+  .ribbon:before {
+    border-left-color:transparent;
+  }
+
+  .ribbon a:link, .ribbon a:visited { 
+    color:#000;
+    text-decoration:none;
+    float:left;
+    height:3.5em;
+    overflow:hidden;
+  }
+
+  .ribbon span {
+    background:#fff;
+    display:inline-block;
+    line-height:3em;
+    padding:0 1em;
+    margin-top:0.5em;
+    position:relative;
+    transition: background-color 0.2s, margin-top 0.2s;
+  }
+  
+  .ribbon a:hover span {
+    background:#FFD204;
+    margin-top:0;
+  }
+  
+  .ribbon span:before {
+    content: "";
+    position:absolute;
+    top:3em;
+    left:0;
+    border-right:0.5em solid #9B8651;
+    border-bottom:0.5em solid #fff;
+  }
+  
+  .ribbon span:after {
+    content: "";
+    position:absolute;
+    top:3em;
+    right:0;
+    border-left:0.5em solid #9B8651;
+    border-bottom:0.5em solid #fff;
+  }
+   /*FIN CSS DU MENU*/
+  
+		</style>
+	</head>
+	<body>
+		<!-- Le hmlt est un language -->
+
+		<div class='ribbon'>
+  <a href='#'><span>Home</span></a>
+  <a href='#'><span>About</span></a>
+  <a href='#'><span>découvrir</span></a>
+  <a href='#'><span>Contact</span></a>
+</div>
+
+		<h1>
+		À la découverte de l’Ile de la Réunion 
+		</h1>
+		<p1> "Que vous soyez un amateur de randonnées ou un adepte de farniente, la Réunion saura vous satisfaire sur tous les points grâce à sa nature généreuse. Voici les lieux incontournables à mettre sur votre programme."
+		</p>
+
+		<h2> Takamaka</h2>
+		</p>
+		<img src="images/takamaka.jpg ">
+
+		<h2>Le volcan</h2>
+		<p2>Le piton de la Fournaise, culminant à 2 632 mètres d'altitude, est le volcan actif de l'île de La Réunion
+		</p2>
+		</p1>
+		<img src="images/volcan.jpg">
+	</body>
+	<body style="background-color:##008080;">
 </body>
-</HTML>
+
+<html>
