@@ -2,16 +2,90 @@
 <HTML>
 	<head>
 		<meta charset="utf-8">
+		<style>
+			/*Ceci est un commentaire en CSS*/
+			h1 {
+				color: #000000;
+			}
+			p2 {
+				color: black;
+			}
+			/*CSS DU MENU*/
+  .ribbon{
+    display: inline-block;
+  }
+  .ribbon:after, .ribbon:before {
+    margin-top:0.5em;
+    content: "";
+    float:left;
+    border:1.5em solid #fff;
+  }
+  
+  .ribbon:after {
+    border-right-color:transparent;
+  }
+  
+  .ribbon:before {
+    border-left-color:transparent;
+  }
+
+  .ribbon a:link, .ribbon a:visited { 
+    color:#000;
+    text-decoration:none;
+    float:left;
+    height:3.5em;
+    overflow:hidden;
+  }
+
+  .ribbon span {
+    background:#fff;
+    display:inline-block;
+    line-height:3em;
+    padding:0 1em;
+    margin-top:0.5em;
+    position:relative;
+    transition: background-color 0.2s, margin-top 0.2s;
+  }
+  
+  .ribbon a:hover span {
+    background:#FFD204;
+    margin-top:0;
+  }
+  
+  .ribbon span:before {
+    content: "";
+    position:absolute;
+    top:3em;
+    left:0;
+    border-right:0.5em solid #9B8651;
+    border-bottom:0.5em solid #fff;
+  }
+  
+  .ribbon span:after {
+    content: "";
+    position:absolute;
+    top:3em;
+    right:0;
+    border-left:0.5em solid #9B8651;
+    border-bottom:0.5em solid #fff;
+  }
+   /*FIN CSS DU MENU*/
+  
+		</style>
+	</head>
+	<body>
+		<!-- Le hmlt est un language -->
+
+		<div class='ribbon'>
+  <a href='#'><span>Home</span></a>
+  <a href='#'><span>About</span></a>
+  <a href='#'><span>découvrir</span></a>
+  <a href='#'><span>Contact</span></a>
+</div>
+
 		<h1>
 		À la découverte de l’Ile de la Réunion 
 		</h1>
-		 <p><div class='ribbon'>
-  <a href='#'><span>Acceuil</span></a>
-  <a href='Diplômes.html'><span>découvrir</span></a>
-  <a href='#'><span>Images</span></a>
-  <a href='#'><span>Contacts</span></a>
-</div></p>
-<head>
 		<p1> "Que vous soyez un amateur de randonnées ou un adepte de farniente, la Réunion saura vous satisfaire sur tous les points grâce à sa nature généreuse. Voici les lieux incontournables à mettre sur votre programme."
 		</p>
 
@@ -27,5 +101,5 @@
 	</body>
 	<body style="background-color:##008080;">
 </body>
-</head>
+
 <html>
