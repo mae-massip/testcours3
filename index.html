@@ -1,120 +1,12 @@
 <!DOCTYPE HTML>
 <HTML>
-	<head>
-		<meta charset="utf-8">
-		<style>
-			 <div id="section-levitating" class="hidden--sm">
-    <div class="layout layout--fullheight layout--black layout--content--white layout--ratio--fix layout--overflow-y -bcg-parallax js-pin-element-trigger" data-offset-height="100">
-      <div class="video">
-        <video class="video__item js-video-item" preload="true" loop="true" muted="true" autoplay="true">
-          <!-- <source src="https://player.vimeo.com/external/250262607.hd.mp4?s=9cd221ac0e71bb19f5f9198efe9174db7da53e0f&profile_id=175" type="video/mp4" poster=""> -->
-          <source src="/bundles/app/video/section-1-1080.mp4" type="video/mp4" poster="">
-          <source src="/bundles/app/video/section-1-1080.webm" type="video/webm" poster="">
-          <span class="section-1-fallback" style="width: 100%; height: 100%;"></span>
-        </video>
-        <div class="video__curtain"></div>
-      </div>
-			/*Ceci est un commentaire en CSS*/
-			h1 {
-				color: #000000;
-			}
-			p2 {
-				color: black;
-			}
+<body>
+	<section class="showcase">
+		<header>
+			<h2 class="logo">travel</h2>
+			<div class="toggle"></div>
+		</header>
 
-body /* On travaille sur la balise body, donc sur TOUTE la page */
-{
-	background-image:reunion.mp4;
-			/*CSS DU MENU*/
-  .ribbon{
-    display: inline-block;
-  }
-  .ribbon:after, .ribbon:before {
-    margin-top:0.5em;
-    content: "";
-    float:left;
-    border:1.5em solid #fff;
-  }
-  
-  .ribbon:after {
-    border-right-color:transparent;
-  }
-  
-  .ribbon:before {
-    border-left-color:transparent;
-  }
-
-  .ribbon a:link, .ribbon a:visited { 
-    color:#000;
-    text-decoration:none;
-    float:left;
-    height:3.5em;
-    overflow:hidden;
-  }
-
-  .ribbon span {
-    background:#fff;
-    display:inline-block;
-    line-height:3em;
-    padding:0 1em;
-    margin-top:0.5em;
-    position:relative;
-    transition: background-color 0.2s, margin-top 0.2s;
-  }
-  
-  .ribbon a:hover span {
-    background:#FFD204;
-    margin-top:0;
-  }
-  
-  .ribbon span:before {
-    content: "";
-    position:absolute;
-    top:3em;
-    left:0;
-    border-right:0.5em solid #9B8651;
-    border-bottom:0.5em solid #fff;
-  }
-  
-  .ribbon span:after {
-    content: "";
-    position:absolute;
-    top:3em;
-    right:0;
-    border-left:0.5em solid #9B8651;
-    border-bottom:0.5em solid #fff;
-  }
-   /*FIN CSS DU MENU*/
-  
-		</style>
-	</head>
-	<body>
-		<!-- Le hmlt est un language -->
-
-		<div class='ribbon'>
-  <a href='#'><span>Home</span></a>
-  <a href='#'><span>About</span></a>
-  <a href='#'><span>découvrir</span></a>
-  <a href='#'><span>Contact</span></a>
-</div>
-
-		<h1>
-		À la découverte de l’Ile de la Réunion 
-		</h1>
-		<p1> "Que vous soyez un amateur de randonnées ou un adepte de farniente, la Réunion saura vous satisfaire sur tous les points grâce à sa nature généreuse. Voici les lieux incontournables à mettre sur votre programme."
-		</p>
-
-		<h2> Takamaka</h2>
-		</p>
-		<img src="images/takamaka.jpg ">
-
-		<h2>Le volcan</h2>
-		<p2>Le piton de la Fournaise, culminant à 2 632 mètres d'altitude, est le volcan actif de l'île de La Réunion
-		</p2>
-		</p1>
-		<img src="images/volcan.jpg">
-	</body>
-	<body style="background-color:##008080;">
+		<video src="reunion.mp4" muted loop autoplay></video>
+	</section>
 </body>
-
-<html>
