@@ -5,6 +5,17 @@
     border:1.5em solid #fff;
   }
   
+  /*CSS DU MENU*/
+  .ribbon{
+    display: inline-block;
+  }
+  .ribbon:after, .ribbon:before {
+    margin-top:0.5em;
+    content: "";
+    float:left;
+    border:1.5em solid #fff;
+  }
+  
   .ribbon:after {
     border-right-color:transparent;
   }
@@ -12,6 +23,7 @@
   .ribbon:before {
     border-left-color:transparent;
   }
+
   .ribbon a:link, .ribbon a:visited { 
     color:#000;
     text-decoration:none;
@@ -19,6 +31,7 @@
     height:3.5em;
     overflow:hidden;
   }
+
   .ribbon span {
     background:#fff;
     display:inline-block;
@@ -50,4 +63,5 @@
     right:0;
     border-left:0.5em solid #9B8651;
     border-bottom:0.5em solid #fff;
-  }  
+  }
+   /*FIN CSS DU MENU*/
