@@ -3,6 +3,17 @@
 	<head>
 		<meta charset="utf-8">
 		<style>
+			 <div id="section-levitating" class="hidden--sm">
+    <div class="layout layout--fullheight layout--black layout--content--white layout--ratio--fix layout--overflow-y -bcg-parallax js-pin-element-trigger" data-offset-height="100">
+      <div class="video">
+        <video class="video__item js-video-item" preload="true" loop="true" muted="true" autoplay="true">
+          <!-- <source src="https://player.vimeo.com/external/250262607.hd.mp4?s=9cd221ac0e71bb19f5f9198efe9174db7da53e0f&profile_id=175" type="video/mp4" poster=""> -->
+          <source src="/bundles/app/video/section-1-1080.mp4" type="video/mp4" poster="">
+          <source src="/bundles/app/video/section-1-1080.webm" type="video/webm" poster="">
+          <span class="section-1-fallback" style="width: 100%; height: 100%;"></span>
+        </video>
+        <div class="video__curtain"></div>
+      </div>
 			/*Ceci est un commentaire en CSS*/
 			h1 {
 				color: #000000;
@@ -10,6 +21,10 @@
 			p2 {
 				color: black;
 			}
+
+body /* On travaille sur la balise body, donc sur TOUTE la page */
+{
+	background-image:reunion.mp4;
 			/*CSS DU MENU*/
   .ribbon{
     display: inline-block;
